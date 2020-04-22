@@ -39,5 +39,10 @@ public class Peleador {
     public void setPeso(int peso) {
         this.peso = peso;
     }
-    
+
+    @Override
+    public String toString() {
+        return "Peleador{" + "edad=" + edad + ", peso=" + peso + '}';
+    }
+
 }
